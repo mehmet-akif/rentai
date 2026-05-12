@@ -1,13 +1,16 @@
 # RentAI Toronto
 
-AI-powered Toronto rental search platform built with React, Node.js, MongoDB, Docker, and Azure deployment.
+AI-powered Toronto rental search platform built with React, Node.js, MongoDB, Docker, Azure, and Render deployment.
 
 ---
 
 # Live Demo
 
-🌐 Frontend Deployment:  
+## Frontend Deployment
 https://mango-glacier-04c0df610.7.azurestaticapps.net/
+
+## Backend API
+https://rentai-1392.onrender.com/
 
 ---
 
@@ -15,7 +18,7 @@ https://mango-glacier-04c0df610.7.azurestaticapps.net/
 
 RentAI is a full-stack rental platform designed to help users discover Toronto rental listings through smart filtering, AI-generated rental insights, interactive maps, and detailed property analytics.
 
-The project combines modern frontend UI/UX with backend APIs, MongoDB data management, Docker containerization, and Azure cloud deployment.
+The project combines modern frontend UI/UX with backend APIs, MongoDB data management, Docker containerization, and cloud deployment architecture.
 
 ---
 
@@ -55,6 +58,7 @@ The project combines modern frontend UI/UX with backend APIs, MongoDB data manag
 ## Deployment & DevOps
 - Dockerized frontend and backend
 - Azure Static Web App deployment
+- Render backend deployment
 - GitHub Actions CI/CD integration
 
 ---
@@ -82,8 +86,21 @@ The project combines modern frontend UI/UX with backend APIs, MongoDB data manag
 ## DevOps & Cloud
 - Docker
 - Docker Compose
-- Azure Static Web Apps
+- Microsoft Azure Static Web Apps
+- Render
 - GitHub Actions
+
+---
+
+# Deployment Architecture
+
+RentAI is deployed using a multi-service cloud setup:
+
+- Frontend hosted on Microsoft Azure Static Web Apps
+- Backend API hosted on Render
+- MongoDB Atlas used for cloud database hosting
+- Docker used for containerization and local development consistency
+- GitHub Actions used for automatic deployment workflows
 
 ---
 
@@ -96,6 +113,7 @@ rentAI/
 ├── backend/
 ├── data-pipeline/
 ├── docker/
+├── screenshots/
 ├── .github/
 ```
 
@@ -193,13 +211,50 @@ PORT=5001
 
 # Screenshots
 
-Add screenshots here later:
+## Homepage
 
-- Homepage
-- Listings page
-- Interactive map
-- Listing details
-- AI rental insights
+![Homepage](./screenshots/homepage.png)
+
+---
+
+## Listings Page
+
+![Listings](./screenshots/listings-page.png)
+
+---
+
+## Interactive Map
+
+![Map](./screenshots/map.png)
+
+---
+
+## Property Details
+
+![Property Details](./screenshots/property-details.png)
+
+---
+
+## AI Rental Insights
+
+![AI Insights](./screenshots/ai-insights.png)
+
+---
+
+## Price Intelligence
+
+![Price Intelligence](./screenshots/price-intelligence.png)
+
+---
+
+# Cloud & DevOps Features
+
+- Full cloud deployment
+- CI/CD integration with GitHub
+- Containerized development workflow using Docker
+- Remote MongoDB database integration
+- Production-ready frontend/backend separation
+- Automatic frontend redeployment after GitHub pushes
 
 ---
 
@@ -208,16 +263,19 @@ Add screenshots here later:
 - User authentication
 - Rental posting dashboard
 - Recommendation engine improvements
-- Backend cloud deployment
 - Advanced analytics dashboard
 - Real rental API integration
 
 ---
 
+# Notes
+
+- Render free-tier services may take several seconds to wake up after inactivity.
+- This project currently uses synthetic rental listing data generated for demonstration and portfolio purposes.
+
+---
+
 # Author
 
-Mehmet Akif  
-Final-year Computer Science student at Toronto Metropolitan University
-
-GitHub:  
-https://github.com/mehmet-akif
+Mehmet Akif Sipahi
+2026 new grad Computer Science student at Toronto Metropolitan University
