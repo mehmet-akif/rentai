@@ -29,7 +29,7 @@ function HomePage() {
     setLoading(true);
 
     try {
-      const response = await axios.post("http://localhost:5001/api/advisor", {
+      const response = await axios.post("https://rentai-1392.onrender.com/api/advisor", {
         budget: 3000,
         bedrooms: "",
         preferences: currentInput,
