@@ -7,7 +7,7 @@ AI-powered Toronto rental search platform built with React, Node.js, MongoDB, Do
 # Live Demo
 
 ## Frontend Deployment
-https://mango-glacier-04c0df610.7.azurestaticapps.net/
+https://nice-pond-08a6fd410.7.azurestaticapps.net/
 
 ## Backend API
 https://rentai-1392.onrender.com/
